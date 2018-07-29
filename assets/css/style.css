@@ -1,0 +1,29 @@
+body {
+    background-image: url("../images/seigaiha.png");
+    background-repeat: repeat;
+    color: #777777;
+
+}
+
+#header {
+    background-color: #fff;
+    border-color: #ccc;
+    border-size: 2px;
+    width: 960px;
+
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+h2 {
+    color: #4aaaa5;
+}
