@@ -4,7 +4,22 @@ body {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     width: 960px;
+    margin: 0;
+}
 
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul {
@@ -12,24 +27,37 @@ ul {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: #fff;
+    font-size: 14px;
 }
 
 li {
     float: right;
     display: inline-block;
     padding: 10px 16px;
-    border-right: 2px solid #777;
+    border-right: 0.5px solid #777;
     text-align: center;
-    
-
 }
 
 li:first-child {
     border-right: none;
 }
 
-h2 {
+.navigation {
+    width: 960px;
+    background-color: white;
+    border-bottom: 2px #ccc solid;
+    padding: 5px;
+    height: 50px;
+    margin: auto;
+
+}
+
+.button {
+        background-color: #4aaaa5;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        object-position: left;
     
-    color: #4aaaa5;
 }
